@@ -204,6 +204,7 @@ footer{
     }
     .redes2{
         display: grid;
+        justify-content: center;
         grid-template-areas: 'titulo titulo titulo'
         'redes redes redes';
         a{

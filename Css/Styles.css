@@ -163,6 +163,7 @@ footer {
     align-items: center; }
   footer .redes2 {
     display: grid;
+    justify-content: center;
     grid-template-areas: 'titulo titulo titulo' 'redes redes redes'; }
     footer .redes2 a {
       margin-right: 15px; }
@@ -296,11 +297,12 @@ FORMULARIO CONTACTO
   display: grid;
   grid-template-columns: auto auto; }
   .mainAyuda .ayudaPreg {
-    width: 50%;
+    width: 65%;
     margin: auto;
     margin-top: 100px;
     background: #e90303;
     padding: 30px;
+    margin-bottom: 20px;
     border-radius: 5px;
     font-family: 'Open Sans', Arial, sans-serif;
     box-shadow: 5px 10px 25px black; }
@@ -325,13 +327,14 @@ Quienes somos
 .quienesSomos {
   width: 50%;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 15px;
   background: #e90303;
   padding: 30px;
   border-radius: 5px;
   font-family: 'Open Sans', Arial, sans-serif;
   box-shadow: 5px 10px 25px black;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 15px; }
   .quienesSomos h1 {
     color: white;
     margin-bottom: 30px; }
@@ -341,6 +344,8 @@ Quienes somos
     font-size: 20px;
     font-weight: bold;
     line-height: 1.6; }
+  .quienesSomos ul li {
+    margin-bottom: 20px; }
 
 /*****************
 Estilos Mobile
@@ -403,21 +408,18 @@ Estilos Mobile
     grid-template-columns: auto; } }
 
 @media (max-width: 768px) {
-  footer ul {
-    padding-left: 0%; }
-    footer ul li {
-      font-size: 12px;
-      transform: scale(0.7); }
-  footer .divFooter1 h4 {
-    font-size: 12px; }
-  footer .redes2 {
-    transform: scale(0.7); }
-    footer .redes2 a {
-      margin-right: 0%; }
-    footer .redes2 h3 {
-      font-size: 12px;
-      text-align: center;
-      margin-right: 15px; } }
+  footer {
+    grid-template-columns: auto;
+    justify-content: center; }
+    footer ul {
+      margin-top: 20px;
+      justify-content: center; }
+      footer ul li {
+        margin-bottom: 10px; }
+    footer .divFooter1 {
+      margin-bottom: 20px; }
+    footer .redes2 {
+      margin-bottom: 20px; } }
 
 @media (max-width: 768px) {
   .formAcceso p {
@@ -428,7 +430,8 @@ Estilos Mobile
     display: grid;
     grid-template-columns: 100%; }
     .mainAyuda .formContact {
-      width: 80%; } }
+      width: 80%;
+      margin-bottom: 20px; } }
 
 @media (max-width: 768px) {
   .quienesSomos {

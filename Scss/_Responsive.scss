@@ -98,26 +98,20 @@ Estilos Mobile
 
 @media (max-width: 768px) {
     footer{
+        grid-template-columns: auto;
+        justify-content: center;
         ul{
-            padding-left: 0%;
+            margin-top: 20px;
+            justify-content: center;
             li{
-                font-size: 12px;
-                transform: scale(0.7);
+                margin-bottom: 10px;
             }
         }
-        .divFooter1 h4{
-            font-size: 12px;
+        .divFooter1{
+            margin-bottom: 20px;
         }
         .redes2{
-            transform: scale(0.7);
-            a{
-                margin-right: 0%;
-            }
-            h3{
-                font-size: 12px;
-                text-align: center;
-                margin-right: 15px;
-            }
+            margin-bottom: 20px;
         }
     }
 }
@@ -138,6 +132,7 @@ Estilos Mobile
         grid-template-columns: 100%;
         .formContact{
             width: 80%;
+            margin-bottom: 20px;
         }
     }
 }
