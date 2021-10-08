@@ -116,6 +116,8 @@ Estilos Mobile
 
 @media (max-width: 768px) {
     .formAcceso{
+        width: 90%;
+        margin-bottom: 20px;
         p{
             height: auto;
         }
@@ -127,7 +129,7 @@ Estilos Mobile
         display: grid;
         grid-template-columns: 100%;
         .formContact{
-            width: 80%;
+            width: 90%;
             margin-bottom: 20px;
         }
     }
@@ -135,7 +137,13 @@ Estilos Mobile
 
 @media (max-width: 768px) {
     .quienesSomos{
-        width: 80%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ayudaPreg{
+        width: 90%;
     }
 }
 
