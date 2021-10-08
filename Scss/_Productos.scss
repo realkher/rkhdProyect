@@ -1,0 +1,16 @@
+/*****************
+PRODUCTOS
+*****************/
+
+.main3{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 20px;
+    section{
+        margin-top: 50px;
+        .main3Div{
+            margin-top: 50px;
+            border-top: 5px solid #e90303;
+        }
+    }
+}

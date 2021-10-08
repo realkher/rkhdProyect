@@ -136,8 +136,7 @@ footer {
   footer .redes2 {
     display: grid;
     justify-content: center;
-    grid-template-areas: 'titulo titulo titulo'
- 'redes redes redes'; }
+    grid-template-areas: 'titulo titulo titulo' 'redes redes redes'; }
     footer .redes2 a {
       margin-right: 15px; }
   footer .redes2 h3 {
@@ -321,6 +320,19 @@ Quienes somos
     margin-bottom: 20px; }
 
 /*****************
+PRODUCTOS
+*****************/
+.main3 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 20px; }
+  .main3 section {
+    margin-top: 50px; }
+    .main3 section .main3Div {
+      margin-top: 50px;
+      border-top: 5px solid #e90303; }
+
+/*****************
 Estilos Mobile
 *****************/
 @media (max-width: 1050px) {
@@ -337,9 +349,6 @@ Estilos Mobile
     display: none; } }
 
 @media (max-width: 768px) {
-  header .logo {
-    width: 70px;
-    height: 40px; }
   header .buscador input[type="search"] {
     width: 180px;
     font-size: 12px;
@@ -409,3 +418,14 @@ Estilos Mobile
 @media (max-width: 768px) {
   .quienesSomos {
     width: 80%; } }
+
+@media (max-width: 1366px) {
+  .main3 {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center; } }
+
+@media (max-width: 768px) {
+  .main3 div img {
+    width: 100%;
+    height: auto; } }
